@@ -1,10 +1,28 @@
+body{
+background: #778877;
+
+}
+
 p{
 	color:blue;
+	text-align: center;
+
+	position: absolute;
+	left: 45px;
+	top: 45px;
 
 
 }
-h1{
-	color:#000000;
+.interest{
+	position: absolute;
+	right: -1200px;
+	top: 45px;
 
+
+}
+
+h1{
+	color:#374B8D;
+text-align: center;
 
 }
