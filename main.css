@@ -1,44 +1,81 @@
 body{
-background: #778877;
-
+	background: #778877;
 }
 
 p{
 	color:blue;
 	text-align: center;
-
 	position: absolute;
 	left: 45px;
 	top: 45px;
-
-
 }
+/*
 .interest{
 	position: absolute;
 	right: -1200px;
 	top: 45px;
-
-
 }
-
 
 .pp{
 	position: absolute;
 	right: -800px;
 	top: 45px;
-
 }
 
 .hh{
-
 	position: absolute;
 	right: 30px;
 	top: 45px;
-
 }
+*/
+
 
 h1{
 	color:#374B8D;
-text-align: center;
+	text-align: center;
+}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+li{
+	float:left;
+}
+
+.hh {
+	 float: right;
+}
+/*
+.pp{
+	 float: right;
+}
+.interest{
+  float: left;
+}
+
+.skill{
+	float:left;
 }
