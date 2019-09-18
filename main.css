@@ -21,6 +21,22 @@ p{
 
 }
 
+
+.pp{
+	position: absolute;
+	right: -800px;
+	top: 45px;
+
+}
+
+.hh{
+
+	position: absolute;
+	right: 30px;
+	top: 45px;
+
+}
+
 h1{
 	color:#374B8D;
 text-align: center;
