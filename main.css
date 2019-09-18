@@ -9,25 +9,7 @@ p{
 	left: 45px;
 	top: 45px;
 }
-/*
-.interest{
-	position: absolute;
-	right: -1200px;
-	top: 45px;
-}
 
-.pp{
-	position: absolute;
-	right: -800px;
-	top: 45px;
-}
-
-.hh{
-	position: absolute;
-	right: 30px;
-	top: 45px;
-}
-*/
 
 
 h1{
@@ -67,15 +49,4 @@ li{
 
 .hh {
 	 float: right;
-}
-/*
-.pp{
-	 float: right;
-}
-.interest{
-  float: left;
-}
-
-.skill{
-	float:left;
 }
