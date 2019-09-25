@@ -1,5 +1,5 @@
 body{
-	background: #8DE31C;
+	background: #818C1E;
 }
 
 p{
@@ -38,7 +38,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #A80000;
 }
 
 .active {
