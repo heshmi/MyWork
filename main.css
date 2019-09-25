@@ -1,5 +1,5 @@
 body{
-	background: #92F053;
+	background: #8DE31C;
 }
 
 p{
@@ -50,7 +50,7 @@ li{
 }
 
 .hh {
-	 float: right;
+	 float: left;
 }
 
 
@@ -69,3 +69,10 @@ div{
 text-align: center;
 position: center;
 }
+
+#welcome{
+		text-align: center;
+
+
+}
+
