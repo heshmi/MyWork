@@ -1,5 +1,5 @@
 body{
-	background: #818C1E;
+	background: #869310;
 }
 
 p{
@@ -38,7 +38,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #A80000;
+  background-color: #1CE3F2;
 }
 
 .active {
@@ -70,7 +70,8 @@ text-align: center;
 position: center;
 }
 
-#welcome{
+#Welcome{
+	padding-top: 30px;
 		text-align: center;
 
 
