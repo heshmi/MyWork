@@ -1,9 +1,9 @@
 body{
-	background: #869310;
+	background: #2714A1;
 }
 
 p{
-	color:black;
+	color:white;
 	text-align: center;
 	position: center;
 	left: 45px; 
@@ -14,7 +14,7 @@ p{
 
 
 h1{
-	color:#374B8D;
+	color:white;
 	text-align: center;
 	font-family: Sans-serif;
 }
@@ -56,10 +56,12 @@ li{
 
 button{
 
-	background-color:green;
+	background-color:blue;
 	color:white;
 	padding:20px 10px;
+	border-radius:60%;
 
+	
 
 
 
@@ -76,4 +78,22 @@ position: center;
 
 
 }
+
+
+#lol{
+	padding-top: 20px;
+}
+
+
+nav{
+border:1px;
+background-color:gold;
+color: white;
+padding:6px;
+
+
+
+}
+
+
 
