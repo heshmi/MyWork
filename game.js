@@ -1,8 +1,8 @@
 function guess_number(){
-  var secret = 35;
+  var secret = 60;
   var guess;
   while(guess != secret){ 
-    guess = prompt("Guess a number between 1 and 100");
+    guess = prompt("Four to the power of 3 minus 4");
    
     if(guess == secret){
        alert("Good Job");
@@ -16,6 +16,7 @@ function guess_number(){
     else{
       alert("that's not a number")
 
-	}
+	 }
   }
 }
+
