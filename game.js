@@ -14,7 +14,7 @@ function guess_number(){
       alert("guess lower");
     }
     else{
-      alert("that's not a number")
+      alert("Are you stupid")
 
 	 }
   }
