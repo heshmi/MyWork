@@ -28,9 +28,13 @@ function test(){
 }
 
 
-function test1(){
-  alert("You");
-  console.log("Hi");
+function giveayear(){
+   var year = prompt("Give me a year and I will give you a century");
+   var century = year/100 + 1;
+   console.log (century)
+  prompt("that year is the " + century + " century");
+
+
 
 
 }
@@ -112,3 +116,7 @@ function test10(){
 
 
 }
+
+
+
+
