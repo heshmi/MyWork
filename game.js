@@ -41,10 +41,10 @@ function giveayear(){
 }
 
 
-function test2(){
-  alert("Are");
-  console.log("Hi");
-
+function triangle(){
+  var x = prompt("Enter an angle belonging to a triangle(Just the number)");
+  var y = prompt("Enter the other angle of that same triangle(Just the number)");
+  alert(180 - x - y + " " + " degree is the 3rdangle of the triangle");
 
 }
 
