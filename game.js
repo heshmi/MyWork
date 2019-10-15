@@ -20,12 +20,25 @@ function guess_number(){
   }
 }
 
-function test(){
-  alert("Hello");
-  console.log("Hi");
+function o(){
+  var x = 0;
+  while (x <= 99){
+    x = x + 1;
+    if(x % 4 == 0 && x % 10 == 0){
+      console.log("fourten");
+    }else if(x % 10 == 0){
+      console.log("ten");
+    }else if(x % 4 == 0){
+      console.log("four");
+    }else{
+      console.log(x);
 
+    } 
 
+  } 
 }
+
+
 
 
 function giveayear(){
