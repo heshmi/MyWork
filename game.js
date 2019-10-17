@@ -42,16 +42,27 @@ function o(){
 
 
 function giveayear(){
-   var year = prompt("Give me a year and I will give you a century");
-   var century = year/100 + 1;
-   console.log (century)
-  prompt("that year is the " + Math.floor (century) + " century");
+   var x = prompt("Enter a year");
+   var y =(x/100);
+   var z =(Math.floor(y + 1));
+    if (z ==12){
+      alert("This year is in the" + " " + z + "th century");
+    } else if (z == 13){
+       alert("This year is in the" + " " + z + "th century");
+    } else if (z == 11){
+       alert("This year is in the" + " " + z + "th century");
+    } else if (z % 10 == 1){
+       alert("This year is in the" + " " + z + "st century");
+    } else if (z % 10 == 2){
+       alert("This year is in the" + " " + z + "nd century");
+    } else if (z % 10 == 3){
+       alert("This year is in the" + " " + z + "rd century");
+    } else {
+       alert("This year is in the" + " " + z + "th century");
+    }
+  }
 
 
-
-
-
-}
 
 
 function triangle(){
