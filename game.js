@@ -73,20 +73,27 @@ function triangle(){
 }
 
 
-function test3(){
-  alert("A");
-  console.log("Hi");
+function length(){
+  var y = prompt("Insert anything you like and I will tell you the length") 
+  alert(y.length);
 
 
 }
 
 
-function test4(){
-  alert("Human");
-  console.log("Hi");
-
-
+function login(){
+  var user = prompt("insert username");
+  var loweruser = user.toLowerCase();
+  var password = prompt("insert password");
+  if(loweruser=="bobby"&& password =="green"){
+    alert("Welcome My Child");
+  }
+  else{
+    alert("try again");
+  }
 }
+
+
 
 
 function test5(){
