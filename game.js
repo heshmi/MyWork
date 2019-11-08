@@ -74,8 +74,9 @@ function triangle(){
 
 
 function length(){
-  var y = prompt("Insert anything you like and I will tell you the length") 
-  alert(y.length);
+  var y = prompt("Insert anything you like and I will tell you the length")
+  var x = (y.trim())
+  alert(x.length);
 
 
 }
@@ -85,7 +86,7 @@ function login(){
   var user = prompt("insert username");
   var loweruser = user.toLowerCase();
   var password = prompt("insert password");
-  if(loweruser=="bobby"&& password =="green"){
+  if(loweruser=="bobby" && password =="green"){
     alert("Welcome My Child");
   }
   else{
@@ -97,6 +98,13 @@ function login(){
 
 
 function test5(){
+  var x = ("enter a string");
+  var y = "";
+
+
+
+  
+
   alert("That");
   console.log("Hi");
 
