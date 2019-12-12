@@ -97,28 +97,42 @@ function login(){
 
 
 
-function test5(){
-  var x = ("enter a string");
-  var y = "";
+function pigIt(){
+var a = str.split(" ")
+var x = ""
+for(let i = 0;i< a.length;i++){
+x += a[i].slice(1)+ a[i][0] +"ay "
+
+}
+return x.trim("")
 
 
-
+                                    
   
 
-  alert("That");
-  console.log("Hi");
 
 
 }
 
 
-
-function test6(){
-  alert("Likes");
-  console.log("Hi");
-
-
+function Encrypt(){
+  var str = prompt("Enter plain text")
+var a = str.split(" ")
+var x = ""
+var y ="asdgh0klqwertyuioopmnbvz"
+var z = "asdfghyukiolkhgfdsa"
+for(let i = 0;i< a.length;i++){
+  for(let g= 0;g< a[i].length;g++)
+x += a[i][g]+y[g]+z[g+2]
 }
+var sipher = (x.trim("").toLowerCase())
+ document.getElementById("encryptedContent").innerHTML = sipher;
+}
+
+
+
+
+
 
 
 

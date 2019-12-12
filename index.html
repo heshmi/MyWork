@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	 <script src="game.js"></script>
 	<title>Hesham's Website</title>
 </head>
 <body>
@@ -32,6 +33,29 @@
 
 		Welcome to Hesham Jalabi's Website
 	</p>
+
+
+	<div class="center top-relative">
+       <!--  <div class="content voilet1">
+            <span>Enter Password for Encryption</span>
+            <input class="f15pt" type="hi" id="passcode" placeholder="password" />
+        </div> -->
+        <!-- <div class="content voilet2">
+            <span>Put Or Type Text Here</span>
+            <textarea id="originalContent"></textarea>
+        </div> -->
+        <div class="content voilet0">
+            <span>Encrypted Form</span>
+            <textarea id="encryptedContent" readonly> </textarea>
+        </div>
+        <div class="content voilet0">
+            <span>Decrypted Form</span>
+            <textarea id="decryptedContent" readonly></textarea>
+        </div>
+        <button class="encrypt" onclick="Encrypt()"> Encrypt</button>
+        <!--<button class="encrypt" onclick="webdevencrypt.setDecrypt('originalContent','decryptedContent','passcode')">Decrypt</button>
+        -->
+    </div>
 	
 
 
