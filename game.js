@@ -119,7 +119,7 @@ function Encrypt(){
   var str = prompt("Enter plain text")
 var a = str.split(" ")
 var x = ""
-var y ="asdgh0klqwertyuioopmnbvz"
+var y ="a1dgh0klqwe6tyuioopmnbvz"
 var z = "asdfghyukiolkhgfdsa"
 for(let i = 0;i< a.length;i++){
   for(let g= 0;g< a[i].length;g++)
@@ -132,16 +132,21 @@ var sipher = (x.trim("").toLowerCase())
 
 
 
-
-
-
-
-function test7(){
-  alert("To");
-  console.log("Hi");
+function Decrypt(){
+  var sipher = prompt("Enter sipher text")
+var z = ""
+for(let i = 0;i< sipher.length;i+= 3){
+z += sipher[i] +" "
+}
+var plain = (z.trim("").toLowerCase())
+ document.getElementById("decryptedContent").innerHTML = plain;
 
 
 }
+
+
+
+
 
 
 
