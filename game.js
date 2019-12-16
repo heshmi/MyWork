@@ -117,7 +117,7 @@ return x.trim("")
 
 function Encrypt(){
   var str = prompt("Enter plain text")
-var a = str.split("")
+var a = str.split(" ")
 var x = ""
 var y ="a1dgh0klqwe6tyuioopmnbvz"
 var z = "asdfghyukiolkhgfdsa"
